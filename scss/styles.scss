@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width:1100px;
+    margin:0 auto;
+}
+
+.details {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height:100px;
+            padding-right: 50px;
+        }
+    }
+}
+
+.inputs {
+    &__inner {
+        &-title {
+            font-weight: bold;
+            font-size:30px;
+            text-align:center;
+        }
+        &-pib {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            // align-items: center;
+            align-items: baseline;
+            p {
+                font-size:20px;
+                font-weight:bold;
+            }
+            textarea {
+                resize:none;
+                font-size:15px;
+                // border:none;
+            }
+        }
+        &-diagnosis {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            align-items: baseline;
+            p {
+                font-size:20px;
+                font-weight:bold;
+            }
+            textarea {
+                resize:none;
+                font-size:15px;
+                // border:none;
+            }
+        }
+        &-recomendations {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+            p {
+                font-size:20px;
+                font-weight:bold;
+            } 
+            textarea {
+                resize:none;
+                font-size:15px;
+                // border:none;
+            }
+        }
+        &-button {
+            background-color: white;
+            color:black;
+            font-size:15px;
+            font-weight: lighter;
+            border:2px solid black;
+            border-radius:10px;
+            padding:15px;
+            margin-top: 50px;
+            transition:0.4s;
+            cursor:pointer;
+            &:hover {
+                background-color:black;
+                color:white;
+                
+            }
+        }
+    }
+}
+
+@media print {
+    textarea {
+    border: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    }
+
+    button {
+        display: none;
+    }
+}
