@@ -25,7 +25,11 @@
         <div class="container">
             <div class="iputs__inner">
                 <div class="inputs__inner-title">
-                    <p>Консультаційний висновок спеціаліста від:</p>
+                    <select name="" id="">
+                        <option value="a">Консультаційний висновок спеціаліста від:</option>
+                        <option value="b">Довідка</option>
+                        <option value="c">Направлення</option>
+                    </select>
                 </div>
                 <div class="inputs__inner-pib">
                     <p>ПІБ пацієнта:</p>
@@ -35,7 +39,7 @@
                     <p>Діагноз:</p>
                     <textarea name="" id="" cols="105" rows="15"></textarea>
                 </div>
-                <div class="inputs__inner-recomendations">
+                <div class="inputs__inner-recomendations dNone">
                     <p>Рекомендації:</p>
                     <textarea name="" id="" cols="105" rows="30"></textarea>
                 </div>
@@ -46,5 +50,6 @@
     </section>
 
     <script src="js/button.js"></script>
+    <script src="js/select.js"></script>
 </body>
 </html>

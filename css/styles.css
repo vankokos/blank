@@ -25,7 +25,20 @@
   padding-right: 50px;
 }
 
+.inputs {
+  padding-top: 50px;
+}
+
 .inputs__inner-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inputs__inner-title select {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
@@ -119,6 +132,16 @@
   color: white;
 }
 
+.dFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dNone {
+  display: none;
+}
+
 @media print {
   textarea {
     border: none !important;
@@ -128,6 +151,12 @@
   }
   button {
     display: none;
+  }
+  .inputs__inner-title select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */

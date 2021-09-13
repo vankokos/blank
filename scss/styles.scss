@@ -20,11 +20,16 @@
 }
 
 .inputs {
+    padding-top: 50px;
     &__inner {
         &-title {
-            font-weight: bold;
-            font-size:30px;
-            text-align:center;
+            display: flex;
+            justify-content: center;
+            select {
+                font-weight: bold;
+                font-size:30px;
+                text-align:center;
+            }
         }
         &-pib {
             display: flex;
@@ -62,6 +67,7 @@
             justify-content: space-between;
             align-items: baseline;
             margin-bottom: 10px;
+
             p {
                 font-size:20px;
                 font-weight:bold;
@@ -92,6 +98,14 @@
     }
 }
 
+.dFlex{
+    display:flex;
+}
+
+.dNone {
+    display: none;
+}
+
 @media print {
     textarea {
     border: none !important;
@@ -103,5 +117,10 @@
 
     button {
         display: none;
+    }
+
+    .inputs__inner-title select {
+        appearance: none;
+        border:none;
     }
 }
