@@ -64,7 +64,7 @@
 
 .inputs__inner-pib textarea {
   resize: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .inputs__inner-diagnosis {
@@ -87,7 +87,7 @@
 
 .inputs__inner-diagnosis textarea {
   resize: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .inputs__inner-recomendations {
@@ -110,7 +110,7 @@
 
 .inputs__inner-recomendations textarea {
   resize: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .inputs__inner-button {
