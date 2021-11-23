@@ -58,13 +58,13 @@
 }
 
 .inputs__inner-pib p {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .inputs__inner-pib textarea {
   resize: none;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .inputs__inner-diagnosis {
@@ -81,13 +81,13 @@
 }
 
 .inputs__inner-diagnosis p {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .inputs__inner-diagnosis textarea {
   resize: none;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .inputs__inner-recomendations {
@@ -104,13 +104,13 @@
 }
 
 .inputs__inner-recomendations p {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .inputs__inner-recomendations textarea {
   resize: none;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .inputs__inner-button {
